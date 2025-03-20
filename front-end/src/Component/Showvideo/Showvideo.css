@@ -1,0 +1,72 @@
+.container_videobox{
+    margin: 10px;
+    transition: 0.75s ease;
+}
+.container_videobox:hover{
+    transition: 0.75s ease;
+    transform: scale(1.1);
+}
+
+.video_ShowVideo{
+    cursor: pointer;
+    height: 228px;
+    width: 405px;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid rgba(57, 57, 57, 0.532);
+    
+    margin-bottom: -10px;
+}
+
+
+.video_description{
+    display: flex;
+    height: 3rem;
+    margin: 15px 10px;
+    text-decoration: none;
+    align-items: start;
+    
+}
+
+.video_details{
+    width: 80%;
+    color: aliceblue;
+    /* padding: 0.1rem; */
+    /* margin: 0.1rem; */
+    margin-left: 10px;
+    height: fit-content;
+    text-decoration: none;
+}
+.title_vid_ShowVideo{
+    margin: 0;
+    font-size: large;
+    font-weight: bolder;
+    color: antiquewhite;
+    display: flex;
+    text-align: clip;
+    text-decoration: none;
+}
+.vid_views_UploadTime{
+    font-size: medium;
+    color: rgba(250,235,215,0.555);
+    margin-top: 0.3rem;
+    margin-bottom: -5px;
+    
+    display: flex;
+    
+}
+.channel_name{
+    
+    text-decoration: none;
+}
+.Chanel_logo_App{
+     margin-top: 5px;
+}
+.Chanel_logo_App img{
+    border-radius: 50px;
+    width: 33px;
+    
+}
+
+
+

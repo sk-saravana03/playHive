@@ -1,0 +1,79 @@
+/* .comments_sub_form_comments {
+    display: absolute;
+    
+  } */
+  .comment_ibox {
+    width: 100%;
+    padding: 0.5%;
+    padding-left: 2%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: rgb(253, 253, 253);
+    border-bottom: 2px solid grey;
+    
+    
+  }
+  
+  .comment_ibox:hover, .comment_ibox:focus{
+    
+    border-bottom: 2px solid white;
+  }
+  
+  .comment_add_btn_comments {
+    cursor: pointer;
+    margin-left: 5rem;
+    margin-top: 5px; 
+    border: 1px ;
+    border-radius: 20px;
+    background-color:  rgba(28, 32, 255, 0.894);
+    margin-left: 10px;
+    color: white;
+    padding: 0.7rem 2rem;
+    
+  }
+  .reset_btn{
+    cursor: pointer;
+    margin-top: 1rem; 
+    border: 1px ;
+    border-radius: 20px;
+    background-color: rgba(64, 64, 64, 0.50);
+    margin-left: 10px;
+    color: grey;
+    padding: 0.7rem 1.2rem;
+    
+  }
+  
+  .comment_add_btn_comments:hover {
+    background-color: rgb(75, 75, 252);
+    
+    color: white;
+    
+  }
+  
+  .display_comment_container {
+    padding: 1rem;
+  }
+  
+  /** display comment **/
+  
+  .comment_body {
+    color: rgb(197, 197, 197);
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+  .usercommented {
+    color: rgb(50, 50, 50);
+    margin: 0;
+  }
+  .EditDel_DisplayCommendt {
+    padding: 0.2rem;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    color: rgba(44, 85, 209, 0.696);
+    cursor: pointer;
+  }
+  
+    .EditDel_DisplayCommendt i {
+      padding: 0.2rem;
+    }

@@ -1,0 +1,43 @@
+.Mic_SearchBar {
+    border-radius: 50%; /* Fully circular shape */
+    padding: 0.5rem;
+    background-color: rgb(51, 51, 51);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for microphone icon */
+  .Mic_SearchBar:hover {
+    background-color: rgb(100, 149, 237);
+    transform: scale(1.1); /* Slight zoom effect */
+  
+  }
+  
+  
+  .Mic_SearchBar:after {
+    content: "Search with your voice"; /* Tooltip text */
+    position: absolute;
+    bottom: 120%; /* Place it above the mic button */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white; /* Tooltip background */
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4em;
+    font-size: 0.8rem;
+    white-space: nowrap; /* Ensures the text stays on one line */
+    opacity: 0; /* Hidden by default */
+    pointer-events: none; /* Prevent tooltip from interacting with mouse events */
+    transition: opacity 0.3s ease;
+  }
+  
+  .Mic_SearchBar:hover::after {
+    opacity: 1; /* Show tooltip on hover */
+  }
+  
+  
+  .Mic_SearchBar {
+    color: whitesmoke;
+    margin: auto 0.7rem;
+  }

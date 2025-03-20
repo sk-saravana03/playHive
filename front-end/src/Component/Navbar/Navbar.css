@@ -1,0 +1,171 @@
+.Container_Navbar{
+    border: 1px solid;
+    display: flex;
+    height: calc(3.8rem - 2px);
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(90deg, #121212, #1E1E1E);
+    
+    justify-content: space-between;
+    padding-top: 0.5rem;        
+}
+.Burger_Logo_Navbar{
+    display: flex;
+    height: 3.3rem;
+    
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border:  transparent;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 50%;
+    
+    
+}
+.burger:hover{
+    background-color: rgb(255, 255, 255, 0.579);
+    
+}
+.logo_div_Navbar{
+    display: flex;
+    text-decoration: none;
+    padding: 0.75rem;    
+    
+}
+.logo_title_navbar{
+    margin: auto;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -5px;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+}
+.apps_Box{
+    width: 25px;
+    margin: auto 0.7rem;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.appBox{
+    border: 1px solid white;
+    margin: 0.1rem;
+    width: 2px;
+    height: 2px;
+}
+.Auth_cont_Navbar{
+    width: fit-content;
+    margin: auto 0.5rem;
+    position: relative;
+    display: flex;
+}
+.Auth_Btn{
+    cursor: pointer;
+    /* background-color: #3ea6ff; */
+    color: white;
+    /* align-items: center; */
+    /* color: rgb(36,36,36); */
+    /* border: 2px solid; */
+    /* border-color: #3ea6ff; */
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+    
+    /* border-radius: 100px; */
+}
+.Video_Btn{
+    margin-top: 9px;
+    position: relative;
+    align-content: center;
+    top: -5px;
+    
+    
+}
+.games_btn{
+    color: white;
+    padding: 8px;
+    margin-right: 8px;
+    margin-block: 3px;
+    position: relative;
+    transform: 1s;
+    
+}
+.games_btn:hover{
+    background-color: rgb(255, 255, 255, 0.579);
+    border-radius: 100px;
+    color: black;
+    
+}
+
+.icons{
+    height: 40px;
+    width: 40px;
+    filter: grayscale(150%);
+    object-fit: cover;
+    margin: 3px;
+    
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+
+
+.games_list{
+    z-index: 1;
+    top: 36px;
+    height: 100px;
+    right: -90px;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.579);
+    border-radius: 20px;
+    align-content: space-around;
+    text-align: center;
+    padding-block: 20px;
+    padding-inline: 10px;
+    scale: 0;
+}
+
+.games_item{
+    padding: 10px;
+    color: black;
+    
+    z-index: 1;
+    text-decoration: none;
+    flex: 1;
+}
+
+.games_btn:hover .games_list{
+    scale: 1;
+    
+    
+}
+.Video_Btn:hover{
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 60%;
+    
+}
+.vid_bell_Navbar{
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+
+.profile_txt{
+    position:fixed;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    padding: 4px 7px;
+    
+}
+

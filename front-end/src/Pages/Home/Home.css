@@ -1,0 +1,40 @@
+.navigation_Home{
+    color: white;
+    background: rgb(0, 0, 0, 0.06);
+    position: sticky;
+    display: flex;
+    overflow-x: auto;
+    top: 0;
+    
+}
+.btn_nav_home{
+    background-color: transparent;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn_nav_home:hover{
+    
+    background-color:  rgba(0, 0, 0, 0.489);
+    
+}
+.latestvideo{
+    color: white;
+    font-size: 35px;
+    margin-left: 30px;
+    background: black;
+    border: 3px solid black;
+    margin-top: 15px;
+}
+.line{
+    margin-left: 29.5vh;
+    margin-top: -23px;
+    z-index: 500;
+    border-color: grey;
+}
+.line2{
+    width: 17px;
+    margin-top: -9px;
+    border-color: grey;
+}

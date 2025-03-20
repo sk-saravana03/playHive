@@ -1,0 +1,265 @@
+.container_videoPage {
+  height: calc(100vh - 3.5rem);
+  overflow-y: auto;
+  background: linear-gradient(180deg, rgb(47, 47, 47),black);
+  color: white;
+}
+
+.container2_videoPage {
+  margin: 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.video_display_screen_videoPage {
+  padding: 1rem;
+  display: relative;
+  
+  
+}
+
+.video_details_videoPage {
+  width: calc(121vw - 3.5rem - 34vw);
+  margin-top: -20px;
+  margin-left: 40px;
+}
+
+.video_ShowVideo_videoPage {
+  /* padding: 0.1rem; */
+  
+  /* border: 1px  solid rgba(255, 255, 255, 0.2); */
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 8px;
+  width: 102%;
+  height: 580px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-left: -14px;
+  position: relative; /* Ensure button is positioned relative to this container */
+}
+
+.video_ShowVideo_videoPage.full{
+  width: 100%;
+  height: 100%;
+  border: none;
+
+}
+.video_ShowVideo_videoPage.full + .videoplayer_controlers{
+  bottom: -12px;
+}
+
+.video_btns_title_VideoPage_cont {
+  flex-grow: 1;
+}
+
+.video_title_VideoPage {
+  font-size: x-large;
+  margin: 0;
+  padding: 0.5rem 0.8rem;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: -30px;
+}
+
+.views_date_btns_VideoPage {
+  display: flex;
+  margin: 0.5rem 1rem;
+  /* width: calc(100vw - 6.5rem - 35vw); */
+}
+
+.views_videoPage {
+  display: flex;
+  font-size: 0.8rem;
+  flex-grow: 1;
+  margin-left: -15px;
+  align-items: center;
+}
+
+.chanel_details_videoPage {
+  display: flex;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bolder;
+  margin-left: -25px;
+}
+.location-temp-popup{
+  top: 50px;
+}
+
+.line {
+  margin-left: -20px;
+  margin-top: 10px;
+  width: 105%;
+}
+
+.chanel_logo_videoPage img {
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0.5rem;
+  border-radius: 100%;
+}
+
+u {
+  text-decoration: none;
+}
+
+.chanel_logo_videoPage p {
+  color: black;
+  margin: auto;
+  font-size: xx-large;
+}
+
+.chanel_name_videoPage {
+  font-weight: bolder;
+  margin: auto 1rem;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+}
+
+.comments_VideoPage {
+  width: 100%;
+  padding-inline-start: 0.5rem;
+}
+
+.moreVideoBar {
+  /* width: calc(100vw - 4.5rem - 70vh); */
+  padding: 0 5rem;
+}
+
+.video_desc {
+  background-color: rgb(50, 49, 49);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: -25px;
+}
+
+.subscribe_btn {
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: black;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+  padding-inline: 1.2rem;
+  height: 2.2rem;
+  margin-top: 12px;
+  margin-left: 1.5rem;
+}
+
+.subscribe_btn:hover {
+  background-color: red;
+  color: white;
+}
+
+/* video player Controllers */
+
+/* Video Player Controllers CSS */
+.videoplayer_controlers {
+  position: relative;
+  transform: translateY(-120%);
+  left: -10px;
+  bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10px;
+  width: 99%;
+  padding: 10px;
+  z-index: 10;
+  background-color: rgb(0, 0, 0, 0.01); /* Slight background for visibility */
+  border-radius: 10px; /* Rounded edges */
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Hidden by default */
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+}
+
+/* Show controls on hover or when the 'show' class is added */
+.videoplayer_controlers:hover,
+.videoplayer_controlers.show {
+  opacity: 1;
+  visibility: visible;
+  
+}
+.videoplayer_timeline{
+  position: absolute;
+  bottom : 40px;
+  z-index : 40;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.17);
+  border-radius: 100px;
+}
+.progress{
+  height: 100%;
+  background: linear-gradient(to right, #ffcb2e, #ffffff);
+  border-radius: 100px;
+  
+}
+
+.currentTime{
+  position: relative;
+  bottom: 3px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor:default;
+}
+
+
+/* Button containers inside the video controls */
+.videoplayer_btns {
+  display: flex;
+  width: 100%;
+}
+
+.left_btns,
+.right_btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.left_btns {
+  justify-content: flex-start;
+  flex: 1;
+  
+}
+
+.right_btns {
+  justify-content: flex-end;
+  flex: 1.5;
+}
+
+/* Button Styling */
+.btn {
+  background-color:transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  color: rgb(255, 216, 40); /* Highlight effect on hover */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .videoplayer_controlers {
+    flex-direction: column;
+    bottom: 5px;
+    padding: 5px;
+  }
+
+  .left_btns,
+  .center_btns,
+  .right_btns {
+    justify-content: center;
+    gap: 5px;
+  }
+}

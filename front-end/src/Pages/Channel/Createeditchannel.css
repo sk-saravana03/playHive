@@ -1,0 +1,78 @@
+.container_CreateEditChanel{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+}
+.container2_CreateEditChanel{
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 40rem;
+    height: 30rem;
+    padding: 0.8rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    
+}
+.container2_CreateEditChanel h1{
+    color: whitesmoke;
+}
+.container2_CreateEditChanel input,
+.container2_CreateEditChanel textarea
+{
+    color: aliceblue;
+    resize: none;
+    padding: 0.5rem;
+    /* border-bottom: 1px solid rgb(66, 66, 65); */
+}
+.container2_CreateEditChanel button{
+    color: white;
+    margin-top: 10px;
+    border: 1px solid rgb(66, 66, 65);
+}
+.ibtn,
+.ibox{
+    font-size: 1rem;
+    padding: 0.2rem;
+    background-color: transparent;
+    color: black;
+    border-radius: 0.2rem;
+    margin: 0.2rem;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+.ibtn{
+    transition: 0.5s;
+    background-color: black;
+    font-weight: 200;
+    border-radius: 30px;
+    padding-block: 1rem;
+}
+.ibtn:hover{
+    color: black;
+    background-color:white;
+    border: none;
+    
+}
+.ibtn_x{
+    border: 0;
+    padding: 0;
+    color: white;
+    background-color: transparent;
+    font-size: 2rem;
+    font-family: sans-serif;
+    right: 50px;
+    cursor: pointer;
+    position: absolute;
+
+    margin-right: -30px;
+    margin-top: 20px;
+    
+
+}
+

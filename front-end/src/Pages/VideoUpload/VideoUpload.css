@@ -1,0 +1,162 @@
+.container_VidUpload {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 100;
+  display: flex;
+    
+  }
+  .container2_VidUpload {
+    box-shadow: 2px 2px 4px 6px rgba(142, 142, 142, 0.681);
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 40rem;
+    height: 30rem;
+    padding: 0.8rem;
+    /* border: 1px solid white; */
+    border-radius: 0.5rem;
+    
+  }
+  .container2_VidUpload input,
+  .container2_VidUpload textarea{
+    color: aliceblue;
+    resize: none;
+    padding: 0.5rem;
+    
+  }
+  .ibox_vidupload {
+    margin: 3px;
+    font-size: larger;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 0.2rem;
+    color: aliceblue;
+    width: calc(100% - 2rem);
+    
+  }
+  .ibox_cidupload input,
+  .ibox_cidupload textarea
+  {
+    border: 1px solid grey ;
+
+  }
+  
+  .ibox_div_vidupload {
+    display: flex;
+    justify-content: stretch;
+    background-color: transparent;
+    flex-direction: column;
+    align-content: center;
+    /* width: 40rem; */
+    height: 20rem;
+  }
+  /* .btn_vidUpload {
+      background-color: black;
+      color: white;
+      font-weight: bolder;
+      border: 2px solid;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      
+  }
+   */
+  
+  
+  .loader{
+      width: 7rem;
+      height: 7rem;
+      padding: 2rem 0;
+      margin: auto;
+  }
+  
+  .ibtn,
+  .ibox{
+      font-size: 1rem;
+      font-family: sans-serif;
+      padding: 0.2rem;
+      outline: none;
+      background-color: transparent;
+      color: black;
+      border-radius: 0.2rem;
+      margin-block: 0.4rem;
+      font-weight: bold;
+      border: none;
+      border-bottom: 1px solid rgb(108, 108, 108);  
+      
+      transition:  1s ;
+  }
+  .ibtn:hover, .ibox:hover, .ibox:focus{
+      border:none;
+      
+      border-bottom: 1px solid white;
+  }
+  .ibox_file{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      height: auto;
+      align-content: center;
+      background-color: transparent;
+      color: black;
+      margin-inline: 0.2rem;
+      margin-block: 0.2rem;
+      align-items: center;
+      cursor: pointer;
+    }
+  .file_label{
+    border: 2px dashed rgb(66, 66, 65);     
+    color: rgb(92, 92, 92);
+    text-align: center;
+    margin-block: 10px;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .file_label:hover{
+    color: white;
+    border: 0.5px dotted white;
+  }
+  .ibtn{
+      transition: 0.5s;
+      background-color: black;
+      font-weight: 200;
+      border-radius: 30px;
+      color: white;
+      border: 1px solid white;
+      width: 37rem;
+      padding-block: 1rem;
+      align-self: center;
+  }
+  .ibtn:hover{
+      color: black;
+      background-color:white;
+      border: none;
+      width: 40rem;
+  }
+  .ibtn_x{
+      border: 0;
+      padding: 0;
+      color: white;
+      background-color: transparent;
+      font-size: 2rem;
+      
+      right: 50px;
+      cursor: pointer;
+      position: absolute;
+      transition: 1s color;
+      margin-right: -30px;
+      margin-top: 20px;
+      
+  
+  }
+

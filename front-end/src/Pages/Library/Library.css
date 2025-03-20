@@ -1,0 +1,34 @@
+.container_libraryPage{
+    border-bottom:1px solid grey ;
+    padding: 1rem 2rem;
+    color: aliceblue;
+}
+.title_container_LibraryPage{
+    margin: 0.5rem 4rem;
+}
+.title_container_LibraryPage b{
+    margin:  auto 0.5rem;
+    padding:  auto 0.5rem;
+    font-size: medium;
+        color: #ffffff;
+}
+.container_videoList_LibraryPage{
+    display: flex;
+        
+    flex-direction: row;
+    
+    margin: 0;
+    max-height: 42vh;
+    overflow-y: auto;
+}
+::-webkit-scrollbar-button{
+    display: none;
+}
+::-webkit-scrollbar-track-piece{
+    color: black;
+    background-color: black;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}

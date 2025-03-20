@@ -1,0 +1,14 @@
+.Container_ShowVideoGrid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    margin-right: 40px;
+    
+}
+.video_box_app{
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-bottom: 70px;
+    padding-block: 10px;
+}

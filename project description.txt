@@ -1,0 +1,4 @@
+i done a MERN project which is likely a youtube and below are my projects,
+-user authentication using google and user can create a channel with profile and upload videos, and users can view the videos which are uploaded by other users and they can like and subscribe and save it once they login and views can be added to the video and more over there is a watch together option and small games like tic-tac-toe and also customized videoplayer not a ordinary videoplayer and with a advancement of holding on the left side which go backwards on the video like holding anywhere on the youtube moves forward in 2x and listing all the video on the home page with greetings for the user according to the time 
+
+that's all about my project and it's name is Play hive

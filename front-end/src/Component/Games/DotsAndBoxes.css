@@ -1,0 +1,89 @@
+.dots-and-boxes {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+/* Horizontal and Vertical Lines */
+.line {
+    position: absolute;
+    background-color: lightgray;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.horizontal {
+    width: 40px;
+    height: 4px;
+    left: 6px;
+}
+
+.vertical {
+    width: 4px;
+    height: 40px;
+    top: 6px;
+}
+
+/* Highlight when active */
+.line.active {
+    background-color: steelblue;
+}
+
+/* Boxes */
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+}
+
+/* Player Colors */
+.box.playerA {
+    background-color: rgba(255, 99, 71, 0.7); /* Red */
+}
+
+.box.playerB {
+    background-color: rgba(30, 144, 255, 0.7); /* Blue */
+}
+
+h2 {
+    margin-top: 20px;
+}

@@ -1,0 +1,6 @@
+Abstract
+
+Play Hive is a modern video-sharing platform designed for an easy and interactive experience. Built with the MERN stack, it allows users to upload videos, create and manage channels, and engage with content through likes and subscriptions. With Google authentication, users can securely log in and enjoy a smooth browsing experience. The platform features a customized video player that enhances viewing quality and flexibility.
+
+What makes Play Hive unique is its interactive features. The Watch Together option lets users watch videos at the same time with friends, creating a shared viewing experience. Additionally, Play Hive includes mini-games, making it more than just a video platform—it’s a place for entertainment and engagement. With a simple and user-friendly design, Play Hive offers a fresh way to explore, watch, and enjoy videos online.
+

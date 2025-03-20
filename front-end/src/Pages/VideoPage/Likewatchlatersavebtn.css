@@ -1,0 +1,55 @@
+.btns_cont_videoPage{
+    display: flex;
+    flex-grow: 5;
+    flex-direction: row-reverse;
+    margin-top: -10px;
+    margin-right: -30px;
+    margin-bottom: -10px;
+}
+.btn_VideoPage{
+    margin:  0 0;
+    display: flex;
+    
+}
+.like_videoPage{
+    margin:  1.3rem;
+    display: flex;
+    cursor: pointer;
+    padding-inline: 2px;
+    background-color: rgb(42, 42, 42);
+    border-radius: 50px;
+    align-items: center;    
+}
+.share_videoPage{
+    margin:  1.3rem;
+    display: flex;
+    cursor: pointer;
+}
+.icon{
+    margin-right: -2px;
+    transition: 0.4s ease;
+}
+.icon:hover{
+    size: 30;
+    margin: 0 15px;
+    flex-grow: 1;
+    transition: 0.4s ease;
+}
+
+
+.play_videoPage{
+    margin:  1rem;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 20px;
+}
+.btns_videoPage{
+    margin: auto 0.5rem;
+    margin-top: -3px;
+}
+.like_btns_videoPage{
+    margin: 0 8px;
+}

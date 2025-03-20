@@ -1,0 +1,57 @@
+.container3_chanel{
+    /* border-bottom: 3px solid rgba(1,26,96,0.692); */
+    padding: 0.5rem;
+    color: whitesmoke;
+    position: relative;
+}
+.chanel_logo_chanel{
+    /* border: 2px solid rgba(49,7,219,0.66); */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: rgba(92,135,4,0.769); */
+    margin-bottom: 30px;
+}
+.chanel_logo_chanel img{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin-left: -10px;
+    
+    
+
+}
+.description_chanel{
+    text-align: center;
+    color: white;
+}
+.description_chanel b{
+    font-size: 4rem;
+    color: white;
+}
+.description_chanel p{
+    font-size: large;
+    color:white
+}
+.uploadbtn_chanel,.editbtn_chanel{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    background-color: black;
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.uploadbtn_chanel{
+    top: 4rem;
+}
+.uploadbtn_chanel:hover,.editbtn_chanel:hover{
+border: 2px solid;
+color: black;
+background-color: white;
+}
